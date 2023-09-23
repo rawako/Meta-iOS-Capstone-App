@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F520F2C32ABDE5EC0017B4EF /* MyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2C22ABDE5EC0017B4EF /* MyAppApp.swift */; };
-		F520F2C52ABDE5EC0017B4EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2C42ABDE5EC0017B4EF /* ContentView.swift */; };
 		F520F2C72ABDE5ED0017B4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F520F2C62ABDE5ED0017B4EF /* Assets.xcassets */; };
 		F520F2CA2ABDE5ED0017B4EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F520F2C92ABDE5ED0017B4EF /* Preview Assets.xcassets */; };
 		F520F2CC2ABDE5ED0017B4EF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2CB2ABDE5ED0017B4EF /* Persistence.swift */; };
@@ -16,6 +15,19 @@
 		F520F2D92ABDE5ED0017B4EF /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2D82ABDE5ED0017B4EF /* MyAppTests.swift */; };
 		F520F2E32ABDE5ED0017B4EF /* MyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2E22ABDE5ED0017B4EF /* MyAppUITests.swift */; };
 		F520F2E52ABDE5ED0017B4EF /* MyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2E42ABDE5ED0017B4EF /* MyAppUITestsLaunchTests.swift */; };
+		F520F2F22ABE06B60017B4EF /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2F12ABE06B60017B4EF /* FetchedObjects.swift */; };
+		F520F2F42ABE06FE0017B4EF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2F32ABE06FE0017B4EF /* OnboardingView.swift */; };
+		F520F2F62ABE08050017B4EF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2F52ABE08050017B4EF /* HeaderView.swift */; };
+		F520F2F82ABE09830017B4EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2F72ABE09830017B4EF /* HomeView.swift */; };
+		F520F2FA2ABE0A2E0017B4EF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2F92ABE0A2E0017B4EF /* MainView.swift */; };
+		F520F2FC2ABE0A570017B4EF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2FB2ABE0A570017B4EF /* Model.swift */; };
+		F520F2FE2ABE0A720017B4EF /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2FD2ABE0A720017B4EF /* LogoutView.swift */; };
+		F520F3002ABE0AEA0017B4EF /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F2FF2ABE0AEA0017B4EF /* MenuModel.swift */; };
+		F520F3022ABE0B030017B4EF /* Dish+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F3012ABE0B030017B4EF /* Dish+CoreData.swift */; };
+		F520F3042ABE0B430017B4EF /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F3032ABE0B430017B4EF /* DishModel.swift */; };
+		F520F3062ABE0B690017B4EF /* DisplayDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F3052ABE0B690017B4EF /* DisplayDish.swift */; };
+		F520F3082ABE0BB40017B4EF /* Dish+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F3072ABE0BB40017B4EF /* Dish+Extension.swift */; };
+		F520F30A2ABE0C0B0017B4EF /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520F3092ABE0C0B0017B4EF /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +50,6 @@
 /* Begin PBXFileReference section */
 		F520F2BF2ABDE5EC0017B4EF /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F520F2C22ABDE5EC0017B4EF /* MyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppApp.swift; sourceTree = "<group>"; };
-		F520F2C42ABDE5EC0017B4EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F520F2C62ABDE5ED0017B4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F520F2C92ABDE5ED0017B4EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F520F2CB2ABDE5ED0017B4EF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +59,19 @@
 		F520F2DE2ABDE5ED0017B4EF /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F520F2E22ABDE5ED0017B4EF /* MyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITests.swift; sourceTree = "<group>"; };
 		F520F2E42ABDE5ED0017B4EF /* MyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F520F2F12ABE06B60017B4EF /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		F520F2F32ABE06FE0017B4EF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F520F2F52ABE08050017B4EF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F520F2F72ABE09830017B4EF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F520F2F92ABE0A2E0017B4EF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F520F2FB2ABE0A570017B4EF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F520F2FD2ABE0A720017B4EF /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
+		F520F2FF2ABE0AEA0017B4EF /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		F520F3012ABE0B030017B4EF /* Dish+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreData.swift"; sourceTree = "<group>"; };
+		F520F3032ABE0B430017B4EF /* DishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
+		F520F3052ABE0B690017B4EF /* DisplayDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDish.swift; sourceTree = "<group>"; };
+		F520F3072ABE0BB40017B4EF /* Dish+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+Extension.swift"; sourceTree = "<group>"; };
+		F520F3092ABE0C0B0017B4EF /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +123,21 @@
 			isa = PBXGroup;
 			children = (
 				F520F2C22ABDE5EC0017B4EF /* MyAppApp.swift */,
-				F520F2C42ABDE5EC0017B4EF /* ContentView.swift */,
 				F520F2C62ABDE5ED0017B4EF /* Assets.xcassets */,
 				F520F2CB2ABDE5ED0017B4EF /* Persistence.swift */,
+				F520F2F32ABE06FE0017B4EF /* OnboardingView.swift */,
+				F520F2F92ABE0A2E0017B4EF /* MainView.swift */,
+				F520F2FB2ABE0A570017B4EF /* Model.swift */,
+				F520F2F52ABE08050017B4EF /* HeaderView.swift */,
+				F520F2FD2ABE0A720017B4EF /* LogoutView.swift */,
+				F520F2F72ABE09830017B4EF /* HomeView.swift */,
+				F520F2FF2ABE0AEA0017B4EF /* MenuModel.swift */,
+				F520F3012ABE0B030017B4EF /* Dish+CoreData.swift */,
+				F520F3032ABE0B430017B4EF /* DishModel.swift */,
+				F520F3052ABE0B690017B4EF /* DisplayDish.swift */,
+				F520F3072ABE0BB40017B4EF /* Dish+Extension.swift */,
+				F520F3092ABE0C0B0017B4EF /* UserProfile.swift */,
+				F520F2F12ABE06B60017B4EF /* FetchedObjects.swift */,
 				F520F2CD2ABDE5ED0017B4EF /* MyApp.xcdatamodeld */,
 				F520F2C82ABDE5ED0017B4EF /* Preview Content */,
 			);
@@ -264,9 +300,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F520F2CC2ABDE5ED0017B4EF /* Persistence.swift in Sources */,
+				F520F2FA2ABE0A2E0017B4EF /* MainView.swift in Sources */,
 				F520F2CF2ABDE5ED0017B4EF /* MyApp.xcdatamodeld in Sources */,
-				F520F2C52ABDE5EC0017B4EF /* ContentView.swift in Sources */,
+				F520F3062ABE0B690017B4EF /* DisplayDish.swift in Sources */,
+				F520F2F42ABE06FE0017B4EF /* OnboardingView.swift in Sources */,
+				F520F2F62ABE08050017B4EF /* HeaderView.swift in Sources */,
+				F520F2FC2ABE0A570017B4EF /* Model.swift in Sources */,
+				F520F3022ABE0B030017B4EF /* Dish+CoreData.swift in Sources */,
+				F520F2F82ABE09830017B4EF /* HomeView.swift in Sources */,
+				F520F3002ABE0AEA0017B4EF /* MenuModel.swift in Sources */,
+				F520F2F22ABE06B60017B4EF /* FetchedObjects.swift in Sources */,
+				F520F3042ABE0B430017B4EF /* DishModel.swift in Sources */,
+				F520F2FE2ABE0A720017B4EF /* LogoutView.swift in Sources */,
 				F520F2C32ABDE5EC0017B4EF /* MyAppApp.swift in Sources */,
+				F520F3082ABE0BB40017B4EF /* Dish+Extension.swift in Sources */,
+				F520F30A2ABE0C0B0017B4EF /* UserProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

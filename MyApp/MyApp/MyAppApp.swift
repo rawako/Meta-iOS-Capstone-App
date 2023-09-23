@@ -5,7 +5,9 @@
 //  Created by Rawand Rzgar on 2023-09-22.
 //
 
+import Foundation
 import SwiftUI
+import CoreData
 
 @main
 struct MyAppApp: App {
@@ -13,7 +15,7 @@ struct MyAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
